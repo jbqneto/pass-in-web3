@@ -1,0 +1,25 @@
+.table {
+
+    tfoot td,
+    tbody td,
+    thead th {
+        @apply py-2 px-4 text-sm
+    }
+
+    input[type="checkbox"] {
+        @apply size-4 bg-black/20 rounded border border-white/10 checked:bg-orange-400 checked:border-none
+    }
+
+    tbody td,
+    thead th {
+        @apply text-left
+    }
+
+    thead th {
+        @apply font-semibold
+    }
+
+    tbody td, tfoot td {
+        @apply text-zinc-300
+    }
+}
